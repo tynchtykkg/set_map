@@ -1,5 +1,15 @@
-import 'package:set_map/set_map.dart' as set_map;
-
-void main(List<String> arguments) {
-  print('Hello world: ${set_map.calculate()}!');
+void main() {
+  Set<int> a = {1, 2, 5, 9, 15, 21, 28, 45};
+  print(a.first);
+  print(a.last);
+  print(a.length);
+  print(a.isEmpty);
+  print(a.isNotEmpty);
+  print(a.add(90)); // возвращает true, если элемент был успешно добавлен в множество
+  print(a.add(45)); // возвращает false, если элемент уже существует в множестве
+  print(a);
+  a.addAll({125, 170, 200});
+  print(a);
+  a.clear();
+  print(a);
 }
