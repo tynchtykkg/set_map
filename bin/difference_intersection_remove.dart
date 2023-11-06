@@ -5,6 +5,6 @@ void main() {
   print(a.intersection({5, 15, 90})); // Creates a new set which is the intersection between this set and [other]
   a.remove(45);
   print(a);
-  a.removeAll({21, 1});
+  a.removeAll({1, 28});
   print(a);
 }

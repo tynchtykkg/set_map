@@ -8,7 +8,7 @@ void main() {
   print(a.add(90)); // возвращает true, если элемент был успешно добавлен в множество
   print(a.add(45)); // возвращает false, если элемент уже существует в множестве
   print(a);
-  a.addAll({125, 170, 200});
+  a.addAll({125, 170, 200}); // Adds all [elements] to this set.
   print(a);
   a.clear();
   print(a);
